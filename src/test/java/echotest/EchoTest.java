@@ -21,7 +21,7 @@ public class EchoTest {
 
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("body empty"))
+                .body("data", equalTo("body contents"))
         ;
 
     }
